@@ -5,8 +5,19 @@ namespace ShopOnline.Api.Extensions
 {
     public static class DtoConversions
     {
+        public static IEnumerable<ProductCategoryDto> ConvertToDto(this IEnumerable<ProductCategory> productCategories)
+            {
+                return (from productCategory in productCategories
+                        select new ProductCategoryDto
+                            {
+                                Id = productCategory.Id,
+                                Name = productCategory.Name,
+                                IconCSS = productCategory.IconCSS
+                            }).ToList();    //GitHub Copilot Super Fun Cool!!!
+        }
+        
         public static IEnumerable<ProductDto> ConvertToDto(this IEnumerable<Product> products,
-            IEnumerable<ProductCategory> productCategories)
+                                               IEnumerable<ProductCategory> productCategories)
         {
             return (from product in products
                     join productCategory in productCategories
