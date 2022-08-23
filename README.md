@@ -45,7 +45,4 @@ For more information, see the [.NET Foundation Code of Conduct](http://www.dotne
 
 Made with [DebasisPaul](https://sites.google.com/view/debasispaul).
 
-*License*
-
-All content for this video series made available in this repository is covered by the [MIT License](https://github.com/DebasisPaul/AMAZON/blob/master/LICENSE.txt)
 
