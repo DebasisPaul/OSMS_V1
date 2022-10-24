@@ -1,4 +1,4 @@
-*[OnlineShoppingManagementSystem.V1](https://sites.google.com/view/shoponlinesolution/)* 
+*[E-Commerce Management System.V1](https://sites.google.com/view/shoponlinesolution/)* 
 
 
 *DOCS_OSMS_V2
